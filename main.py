@@ -14,6 +14,6 @@ if not os.path.exists(tasks_folder):
 else:
     print(f"{tasks_folder} folder already exists, delete it and try again...")
 
-tasks = queue.Queue()
+tasks = []
 operations.load_tasks(tasks, tasks_file)
 
